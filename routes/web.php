@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('index');
 });
 
-Route::get('/consumirapi', 'TesteController@teste');
+Route::get('/index', 'App\Http\Controllers\TesteController@index')->name('index');

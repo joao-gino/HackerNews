@@ -1,10 +1,10 @@
-@extends('layout.app', ['current' => 'home'])
+@extends('layout.app', ['current' => 'beststories'])
 
 @section('body')
     
 <div class="col-lg-12">
     <div class="main-card card">
-        <div class="card-body"><h5 class="card-title">Top 10 New Job/Stories</h5>
+        <div class="card-body"><h5 class="card-title">Best 10 Stories</h5>
             <table class="mb-0 table table-dark">
                 <thead>
                 <tr>

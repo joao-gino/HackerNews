@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/index', 'App\Http\Controllers\TesteController@index')->name('index');
+Route::get('/best', 'App\Http\Controllers\BestController@best')->name('best');
